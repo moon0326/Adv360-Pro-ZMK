@@ -19,33 +19,6 @@
 #include <dt-bindings/zmk/backlight.h>
 
 
-Mod-Tap
-Mod-Morph
-Macros
-Key Toggle
-Sticky Key
-Sticky Layer
-Tap-Dance
-Caps Word
-Key Repeat
-Reset
-Bluetooth
-Output Selection
-RGB Underglow
-Backlight
-Power Management
-Codes
-Configuration
-Development
-Macro Behavior
-Summary
-The macro behavior allows configuring a list of other behaviors to invoke when the macro is pressed and/or released.
-
-Macro Definition
-Each macro you want to use in your keymap gets defined first, then bound in your keymap.
-
-A macro definition looks like:
-
 / {
     macros {
         macro_hotkey1: macro_hotkey1 {
