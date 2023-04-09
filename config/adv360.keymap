@@ -59,11 +59,11 @@
 
         layer_fn {
             bindings = <
- &kp ESC  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT            &tog 1                                                   &mo 3  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp F10  &kp F11  &kp F12
-  &trans                &trans                &trans      &trans            &trans      &trans             &none                                                   &none      &trans             &trans        &trans   &trans   &trans   &trans
-  &trans                &trans                &trans      &trans            &trans      &trans             &none  &trans  &trans   &none   &none  &trans  &trans   &none      &trans             &trans        &trans   &trans   &trans   &trans
-  &trans                &trans                &trans      &trans            &trans      &trans             &none   &none  &trans   &none   &none  &trans   &none   &none      &trans             &trans        &trans   &trans   &trans   &trans
-  &trans                &trans                &trans      &trans            &trans                        &trans  &trans  &trans                  &trans  &trans  &trans                         &trans        &trans   &trans   &trans   &trans
+ &kp ESC  &kp F14  &kp F15  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT            &tog 1                                                   &mo 3  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOL_UP  &kp F10  &kp F11  &kp F12
+  &trans   &trans   &trans      &trans            &trans      &trans             &none                                                   &none      &trans             &trans        &trans   &trans   &trans   &trans
+  &trans   &trans   &trans      &trans            &trans      &trans             &none  &trans  &trans   &none   &none  &trans  &trans   &none      &trans             &trans        &trans   &trans   &trans   &trans
+  &trans   &trans   &trans      &trans            &trans      &trans             &none   &none  &trans   &none   &none  &trans   &none   &none      &trans             &trans        &trans   &trans   &trans   &trans
+  &trans   &trans   &trans      &trans            &trans                        &trans  &trans  &trans                  &trans  &trans  &trans                         &trans        &trans   &trans   &trans   &trans
             >;
         };
 
