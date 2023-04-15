@@ -12,6 +12,7 @@ endif
 .PHONY: all clean
 
 all:
+	rm -f firmware/*.uf2
 	$(DOCKER) build --tag zmk --file Dockerfile .
 	$(DOCKER) run --rm -it --name zmk \
 		-v $(PWD)/firmware:/app/firmware$(SELINUX1) \
