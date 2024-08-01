@@ -385,11 +385,11 @@
 
         window_move {
             bindings = <
-&kp ESC    &kp N1     &kp N2  &kp N3    &kp N4              &kp N5  &tog 1                                                   &mo 3            &kp N6                    &kp N7            &kp N8                &kp N9             &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W   &kp E     &kp R               &kp T   &none                                                    &missionControl  &kp Y                     &kp LG(LA(Q))     &kp LG(LA(UP_ARROW))  &kp LG(LA(W))      &kp P     &kp BSLH
-&kp EQUAL  &kp A      &kp S   &kp D     &run_context_cycle  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &vimic           &kp LG(GRAVE)             &kp LG(LA(LEFT))  &kp LG(LA(DOWN))      &kp LG(LA(RIGHT))  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X   &kp C     &kp V               &kp B                        &kp HOME      &kp PG_UP                              &win_move_to_next_screen  &kp LG(LA(Z))     &kp COMMA             &kp LG(LA(X))      &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &none   &kp LEFT  &kp RIGHT                   &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                                  &kp DOWN          &kp DOWN              &kp LBKT           &kp RBKT  &mo 2
+&kp ESC    &kp N1     &kp N2  &kp N3    &kp N4              &kp N5  &tog 1                                                   &mo 3            &kp N6                    &kp N7                    &kp N8       &kp N9                     &kp N0    &kp MINUS
+&kp TAB    &kp Q      &kp W   &kp E     &kp R               &kp T   &none                                                    &missionControl  &kp Y                     &win_top_left_quarter     &win_max     &win_top_right_quarter     &kp P     &kp BSLH
+&kp EQUAL  &kp A      &kp S   &kp D     &run_context_cycle  &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &vimic           &kp LG(GRAVE)             &win_left                 &win_center  &win_right                 &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z      &kp X   &kp C     &kp V               &kp B                        &kp HOME      &kp PG_UP                              &win_move_to_next_screen  &win_bottom_left_quarter  &kp COMMA    &win_bottom_right_quarter  &kp FSLH  &kp RSHFT
+&mo 2      &kp GRAVE  &none   &kp LEFT  &kp RIGHT                   &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp SPACE                                  &kp DOWN                  &kp DOWN     &kp LBKT                   &kp RBKT  &mo 2
             >;
         };
     };
